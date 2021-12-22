@@ -1,7 +1,6 @@
 # CV
 *****
 <img src="https://previews.123rf.com/images/johan2011/johan20111110/johan2011111000026/10849769-3d-little-human-character-in-the-office-working-business-people-series-.jpg" alt="Avatar" height="250">
-*****
 
 ## Name
 Andrei Dedenko
