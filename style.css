@@ -1,3 +1,143 @@
-.new {
-    font-family: Arial, sans-serif;
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 100vh;
+    min-width: 325px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #faeee0;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+    background-color: silver;
+ }
+
+.main {
+    margin-bottom: auto;
+    display: block;  
+    background-color: #faeee0;
+}
+
+.footer {
+    padding: 15px;
+    display: block;
+    background-color: silver;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 40px;
+}
+
+@media (max-width: 1440px) {
+.container {
+    padding: 0px 20px;
+}
+}
+
+.nav-list {
+    display: block;
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.nav-link {
+    padding: 5px 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover {
+    color: red;
+    transition: 2s;
+}
+
+.ul-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section {
+    display: block;
+}
+
+.section {
+    width: 45%;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid crimson;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    letter-spacing: 2px;
+}
+
+.section-bottom {
+    border-bottom: none;
+}
+
+.round {
+    border-radius: 150px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+}
+
+.git-link {
+    color: white;
+    text-decoration: none;
+}
+
+.git-link:visited {
+    color: white;
+}
+
+.git-link:hover {
+    color: red;
+    transition: 2s;
+}
+
+.rss-link {
+    width: 108px;
+    height: 40px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
